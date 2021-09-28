@@ -1,0 +1,24 @@
+.register__col {
+    border: 1px solid box-shadow(5px, 10px, #888888);
+    box-shadow: 0px 0px 2px rgb(207, 207, 207);
+}
+
+.register__title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.register__a {
+    color: orange;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.register__remind {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.register__error {
+    color: red !important;
+}

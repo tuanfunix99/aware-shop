@@ -1,0 +1,30 @@
+.classform + .classform {
+    margin-top: 10px;
+}
+
+.classform__label {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+}
+
+.classform__input {
+    width: 100%;
+    border: 1px solid rgba(204, 203, 203, 0.699);
+    border-radius: 2px;
+    outline: none;
+    padding: 7px 15px;
+    &:focus {
+        outline: 1px solid rgb(136, 205, 245);
+    }
+}
+
+.classform--error {
+    input {
+        border: 1px solid red !important;
+        &:focus {
+            outline: 1px solid red !important;
+        }
+    }
+}

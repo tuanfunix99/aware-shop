@@ -1,0 +1,21 @@
+body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  letter-spacing: 2px;
+  a {
+      text-decoration: none;
+      color: gray;
+      cursor: pointer;
+      font-size: 23px;
+      transition: opacity 0.2s ease;
+  }
+}
